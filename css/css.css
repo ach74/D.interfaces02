@@ -5,7 +5,7 @@ body{
 }
 
 h2{
-	font-size: 80%;
+	font-size: 180%;
 }
 h3{
 	font-size: 20%;
@@ -64,4 +64,50 @@ li a:hover {
 
 li a:active{
 	background-color: #828f80;
+}
+
+#container01{
+	height: 400px;
+	width: 100%;
+	background-image: url("../img/banner.jpg");
+	margin-top: 5px;
+}
+
+#ContenedorNoticias{
+	margin-top: 0px;
+}
+#container02Left{
+	width: 70%;
+	height: auto;
+	background-color: blue;
+	position:absolute;
+}
+
+#container02Left > p {
+	font-family: "Times New Roman";
+	font-size: 120%;
+	
+}
+#container02Left > h2{
+	color: #828f80;
+	font-weight: bold;
+}
+.noticias{
+	width: 320px;
+	height: auto;
+	float: left;
+	margin: 5px;
+}
+
+.imgNoticia{
+	width: 100%;
+	height: auto;
+}
+
+#container03Right{
+	width: 30%;
+	height: 1000px;
+	background-color: red;
+	float: left;
+	position:absolute;
 }
