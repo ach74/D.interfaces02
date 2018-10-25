@@ -2,6 +2,8 @@
 body{
 	font-family: Open Sans;
 	font-size: 13px;
+	width: 1000px;
+	margin: auto;
 }
 
 h2{
@@ -10,11 +12,7 @@ h2{
 h3{
 	font-size: 20%;
 }
-#container{
-	width: 1000px;
-	height: auto;
-	margin: auto;
-}
+
 
 #head{
 	width: 100%;
@@ -39,13 +37,13 @@ h3{
 	text-align: center;
 }
 
-li {
+#menu > li {
 	float: left;
 	width:auto;
 	height: 100%;
 }
 
-li a {
+#menu > li a {
 	display: block;
 	color: white;
 	text-align: center;
@@ -53,16 +51,15 @@ li a {
 	text-decoration: none;
 }
 
-li a:visited {
+l#menu > i a:visited {
 	background-color: #baad4a;
 }
 
-
-li a:hover {
+#menu > li a:hover {
 	background-color: #397881;
 }
 
-li a:active{
+#menu > li a:active{
 	background-color: #828f80;
 }
 
@@ -74,13 +71,15 @@ li a:active{
 }
 
 #ContenedorNoticias{
-	margin-top: 0px;
+	width: 100%;
+	max-width: 1000px;
+	height: 1030px;
 }
 #container02Left{
+	display: inline-block;
+	max-width: 667px;
 	width: 70%;
 	height: auto;
-	background-color: blue;
-	position:absolute;
 }
 
 #container02Left > p {
@@ -93,7 +92,8 @@ li a:active{
 	font-weight: bold;
 }
 .noticias{
-	width: 320px;
+	width: 100%;
+	max-width: 320px;
 	height: auto;
 	float: left;
 	margin: 5px;
@@ -105,9 +105,42 @@ li a:active{
 }
 
 #container03Right{
-	width: 30%;
-	height: 1000px;
-	background-color: red;
+	max-width: 328px;
+	width: 100%;
+	display: block;
+	float: right;
+}
+
+.noticiasColum{
+	width: 320px;
+	height: auto;
 	float: left;
-	position:absolute;
+	margin: 5px;
+}
+#cFooter{
+	background-color: #333333;
+	width: 100%;
+	height: 300px;
+	border: dotted white; 
+}
+.logo{
+	float: left;
+	bottom: 0px;
+	width: 32%;
+	height: 100%;
+	display: block;
+}
+
+#logoCentral{
+	border-right: dotted white; 
+	border-left: dotted white; 
+}
+#lista {
+	list-style-image: url("../img/fletxaMenuBlanca.png")
+}
+
+
+.logo > img {
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
 }
